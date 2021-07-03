@@ -25,6 +25,7 @@ handle_input_locally = false
 render_target_update_mode = 3
 
 [node name="Camera2D" type="Camera2D" parent="MainViewport/Viewport"]
+anchor_mode = 0
 current = true
 
 [node name="world" parent="MainViewport/Viewport" instance=ExtResource( 1 )]
@@ -45,5 +46,6 @@ handle_input_locally = false
 render_target_update_mode = 3
 
 [node name="Camera2D" type="Camera2D" parent="MainViewport/ViewportContainer/Viewport"]
+anchor_mode = 0
 current = true
 zoom = Vector2( 10, 10 )
